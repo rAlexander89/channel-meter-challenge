@@ -16,14 +16,14 @@ Howdy! Welcome to my Challenge Meter exersize!
 
 Use whichever method you prefer to hit endpoints with: curl, thunder client, postman. Whichever.
 
--   1. `/students`
+-   `/students`
     -   Returns an array of student ids
     ```
     {
         students: []Student
     }
     ```
--   2. `/students/{id}`
+-   `/students/{id}`
     -   Returns the corresponding student's `average score` and an array of `ID`s for the exams they've completed
     ```
     {
@@ -31,14 +31,14 @@ Use whichever method you prefer to hit endpoints with: curl, thunder client, pos
         scores: []exam.ExamScores
     }
     ```
--   3. `/exams`
+-   `/exams`
     -   Returns an array of completed `exams`
     ```
     {
         exams: exam.ExamsSlice
     }
     ```
--   4. `/exams/{number}`
+-   `/exams/{number}`
     -   Returns the corresponding exam's `average score` across all students that have taken that exam and all of the `scores`
     ```
     {
