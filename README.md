@@ -15,7 +15,9 @@ Howdy! Welcome to my Challenge Meter exersize!
     - Compile the code using `go build` and then run the compiled file by name: `./channel-meter-challenge` or whatever else the compiled file is named
 4. The code runs on port `3000`, so ensure that port is available prior to run.
 
-5. The available endpoints are:
+## Available endpoints
+
+Use whichever method you prefer to hit endpoints with: curl, thunder client, postman. Whichever.
 
 -   1. `/students`
     -   Returns an array of student ids
@@ -47,8 +49,6 @@ Howdy! Welcome to my Challenge Meter exersize!
         scores: exam.ExamScores
     }
     ```
-
-6. Use whichever method you prefer to hit endpoints with: curl, thunder client, postman. Whichever.
 
 7. For the sake of time and not knowing how to write a tests in Go, this was left out.
 
