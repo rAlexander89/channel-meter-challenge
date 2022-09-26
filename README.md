@@ -1,8 +1,5 @@
 # Challenge Meter Coding Challenge ReadMe
 
-Once you are finished provide a readme with the final code that include: How to run the code, How to use the api and any other libraries or code needed to run this test.
-Read Me:
-
 Howdy! Welcome to my Challenge Meter exersize!
 
 ## How to run the code:
